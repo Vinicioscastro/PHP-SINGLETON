@@ -1,9 +1,9 @@
 <?php
 
-class jogadores{
+class Jogadores{
 
     protected static $instance;
-    private $jogador = [];
+    private $jogadores = [];
 
     private function __constructor(){}
     private function __clone(){}
@@ -16,8 +16,8 @@ class jogadores{
 
     }
 
-    public function setJogador($jogador){
-        $this.jogador = array_merge($this->jogador, $jogador)
+    public function setJogador($jogadores){
+        $this->jogadores = array_merge($this->jogadores, $jogadores);
     }
 
 

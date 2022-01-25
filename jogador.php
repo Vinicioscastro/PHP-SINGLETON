@@ -1,13 +1,15 @@
 <?php
 
-class jogador{
+class Jogador{
     public $nome;
     public $time;
-    public $nacionalidade
+    public $nacionalidade;
 
-    public function __constructor( $nome , $time, $nacionalidade){
+    public function criar( $nome , $time, $nacionalidade){
         $this->nome = $nome;
         $this->time = $time;
         $this->nacionalidade = $nacionalidade;
     }
 }
+
+?>
